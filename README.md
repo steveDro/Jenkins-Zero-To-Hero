@@ -55,10 +55,10 @@ Now, confirm if jenkins is running
 > ps -ef | grep jenkins
 
 Reveal your jenkins password
-sudo cat /var/something
+> sudo cat /var/something
 
 Restart jenkins before install plugins
-http://ec2-public-ip:8080/restart 
+> http://ec2-public-ip:8080/restart 
 
 **Note: ** By default, Jenkins will not be accessible to the external world due to the inbound traffic restriction by AWS. Open port 8080 in the inbound traffic rules as show below.
 
