@@ -51,6 +51,11 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
 sudo apt-get update
 sudo apt-get install jenkins
 ```
+Now, confirm if jenkins is running
+> ps -ef | grep jenkins
+
+Reveal your jenkins password
+sudo cat /var/something
 
 **Note: ** By default, Jenkins will not be accessible to the external world due to the inbound traffic restriction by AWS. Open port 8080 in the inbound traffic rules as show below.
 
